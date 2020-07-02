@@ -7,7 +7,6 @@ import SideMenu from './sideMenu';
 //@BlueprintImportInsertion
 import Messaging7679Navigator from '../features/Messaging7679/navigator';
 import EmailAuth7678Navigator from '../features/EmailAuth7678/navigator';
-import CalendarView7677Navigator from '../features/CalendarView7677/navigator';
 import BlankScreen47676Navigator from '../features/BlankScreen47676/navigator';
 import BlankScreen57675Navigator from '../features/BlankScreen57675/navigator';
 import MessengerNavigator from '../features/Messenger/navigator';
@@ -25,7 +24,6 @@ const AppNavigator = {
     //@BlueprintNavigationInsertion
 Messaging7679: { screen: Messaging7679Navigator },
 EmailAuth7678: { screen: EmailAuth7678Navigator },
-CalendarView7677: { screen: CalendarView7677Navigator },
 BlankScreen47676: { screen: BlankScreen47676Navigator },
 BlankScreen57675: { screen: BlankScreen57675Navigator },
 Messenger: { screen: MessengerNavigator },
